@@ -76,5 +76,21 @@
   .product-info button:hover {
     background-color: #555;
   }
-  
+  .nav{
+    border-style: inset;
+    border-style: outset;
+    border-color: rgb(182, 175, 175);
+    border-radius: 1em;
+    height:95px;
+    
+  }
+  .cart-button{
+    border-radius:5em;
+    margin-left: 90%;
+    padding: -5%;
+    width: 1%;
+    height: 1%;
+    margin-top: -1%;
+
+  }
   
