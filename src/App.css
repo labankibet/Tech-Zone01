@@ -1,0 +1,80 @@
+*{ 
+    font-family: inter;
+  }
+  .phones{
+    width: 270px;
+    height: 350px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: #F5F5F5;
+  }
+  .home{
+    display: flex;
+    flex-wrap: wrap;
+  }*{
+    margin: 3px;
+  }
+  
+  .deli{
+    text-align: center;
+    /* border-style: inset;
+    border-style: outset;
+    border-color: rgb(182, 175, 175);
+    border-radius: 2em;
+    padding: 2%;
+    gap: 2%;
+    display: grid;
+    width: 23%; */
+    
+  }
+  /* .product-details{
+    border-style: inset;
+    border-style: outset;
+    border-color: rgb(182, 175, 175);
+    border-radius: 2em;
+    padding: 2%;
+    width: 67%;
+  } */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  button[type="submit"], button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+  }
+  .product-info button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  .product-info button:hover {
+    background-color: #555;
+  }
+  
+  
