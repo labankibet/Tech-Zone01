@@ -13,10 +13,29 @@ function Homepage() {
     const handleClick = (phoneId) => {
         navigate(`/product/${phoneId}`);
     };
+    const [search ,setSearch] = useState('')
+
+    function handleChange(e){
+        setSearch(e.target.value)
+    }
+    const filtered = getPhones.filter((i) =>{
+        if (search === ''){
+            return true
+        }else{
+            return i.name.includes(search)
+        }
+    })
 
     return (
-        <div className="home">
-            {getPhones.map((phone) => (
+        <div >
+            <div>
+                <form>
+                    <input type="text" placeholder="search..." value= {search} onChange={handleChange}/>
+                </form>
+
+            </div>
+            <div className="home">
+            {filtered.map((phone) => (
                 <div className='phones' key={phone.id}>
                     <img src={phone.img} alt={phone.name} />
                     <h3>Brand: {phone.brand}</h3>
@@ -25,6 +44,7 @@ function Homepage() {
                     <button onClick={() => handleClick(phone.id)}>View More Details</button>
                 </div>
             ))}
+            </div>
         </div>
     );
 }
