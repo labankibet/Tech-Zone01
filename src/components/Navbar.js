@@ -1,18 +1,21 @@
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../App.css";
 
-function NavBar({ onClick }) {
-    return (
-        <nav className='nav'>
-
-            <Link to="/">Homepage</Link>
-            <Link to="/product/:id">ProductDetails</Link>
-            <Link to="/registration">Sign-up</Link>
-            <Link to="/login">Login</Link>
-            <button className="cart-button" onClick={onClick}>
-                <img src="./cart.png" alt="Cart" />
-            </button>
-        </nav>
+ function NavBar(){
+  
+    return(
+      <nav>
+      <div id="div1">
+      <h1>PHONE ZONE</h1>
+      </div>
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/checkout">Checkout</Link>
+      </div>
+    </nav>
     );
-}
-
-export default NavBar;
+ }
+ export default NavBar;
