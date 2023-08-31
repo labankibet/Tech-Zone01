@@ -35,6 +35,30 @@
       "email": "bin@bin.com",
       "password": "123456",
       "id": 6
+    },
+    {
+      "username": "Alvin",
+      "email": "bin@bin.com",
+      "password": "ttyjky",
+      "id": 7
+    },
+    {
+      "username": "Bin",
+      "email": "bin@bin.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "username": "Bin",
+      "email": "bin@bin.com",
+      "password": "1234567",
+      "id": 9
+    },
+    {
+      "username": "Esemere",
+      "email": "esemere@esemere.com",
+      "password": "123456",
+      "id": 10
     }
   ],
   "phone_models": [
@@ -50,7 +74,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 2,
@@ -64,7 +89,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 3,
@@ -78,7 +104,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 4,
@@ -92,7 +119,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 5,
@@ -106,7 +134,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 6,
@@ -120,7 +149,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 7,
@@ -134,7 +164,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 8,
@@ -148,7 +179,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 9,
@@ -162,7 +194,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 10,
@@ -176,7 +209,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 11,
@@ -190,7 +224,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 12,
@@ -204,7 +239,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 13,
@@ -218,7 +254,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 14,
@@ -232,7 +269,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 15,
@@ -246,7 +284,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 16,
@@ -260,7 +299,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 17,
@@ -274,7 +314,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 18,
@@ -288,7 +329,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 19,
@@ -302,7 +344,8 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
     },
     {
       "id": 20,
@@ -316,7 +359,52 @@
       "chipset": "Apple a16 Bionic",
       "battery": "4323mAh",
       "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
-      "sensors": "Face ID"
+      "sensors": "Face ID",
+      "isInCart": false
+    }
+  ],
+  "cart-details": [
+    {
+      "id": 1,
+      "name": "iPhone 14 Pro Max",
+      "brand": "Apple",
+      "price": 999,
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg",
+      "screen_size": "6.73 inches",
+      "release_date": "2022-01-11",
+      "camera": "50MP triple-lens rear camera system, 32MP front-facing camera",
+      "chipset": "Apple a16 Bionic",
+      "battery": "4323mAh",
+      "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
+      "sensors": "Face ID",
+      "isInCart": false
+    },
+    {
+      "id": 20,
+      "name": "NOKIA ASHA 205",
+      "brand": "NOKIA",
+      "price": 3,
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/nokia-asha-205-new.jpg",
+      "screen_size": "6.73 inches",
+      "release_date": "2022-01-11",
+      "camera": "50MP triple-lens rear camera system, 32MP front-facing camera",
+      "chipset": "Apple a16 Bionic",
+      "battery": "4323mAh",
+      "technology": "GSM/CDMA/HSPA/EVDO/LTE/5G",
+      "sensors": "Face ID",
+      "isInCart": false
+    }
+  ],
+  "order-details": [
+    {
+      "date": "2023-08-31",
+      "name": "Alvin",
+      "card": "56789123",
+      "address": "Ruiru",
+      "amount": {
+        "total": 2664
+      },
+      "id": 1
     }
   ]
 }
