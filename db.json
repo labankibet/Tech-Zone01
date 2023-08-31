@@ -386,11 +386,11 @@
       "isInCart": false
     },
     {
-      "id": 20,
-      "name": "NOKIA ASHA 205",
-      "brand": "NOKIA",
-      "price": 3,
-      "img": "https://fdn2.gsmarena.com/vv/bigpic/nokia-asha-205-new.jpg",
+      "id": 2,
+      "name": "Samsung Galaxy S22 Ultra",
+      "brand": "Samsung",
+      "price": 1199,
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg",
       "screen_size": "6.73 inches",
       "release_date": "2022-01-11",
       "camera": "50MP triple-lens rear camera system, 32MP front-facing camera",
@@ -404,13 +404,63 @@
   "order-details": [
     {
       "date": "2023-08-31",
-      "name": "Alvin",
-      "card": "56789123",
-      "address": "Ruiru",
+      "name": "Caleb Kiprotich",
+      "card": "6796999996",
+      "address": "Nairobi",
       "amount": {
         "total": 2664
       },
       "id": 1
+    },
+    {
+      "date": "2023-08-30",
+      "name": "Bin Amin",
+      "card": "47474384738",
+      "address": "Kisumu Ngogo",
+      "amount": {
+        "total": 1665
+      },
+      "id": 2
+    },
+    {
+      "date": "2023-08-31",
+      "name": "Cynthia",
+      "card": "12121213",
+      "address": "Kibra",
+      "amount": {
+        "total": 999
+      },
+      "id": 3
+    },
+    {
+      "date": "2023-08-31",
+      "name": "Esemere",
+      "card": "5555534",
+      "address": "Mbagathi",
+      "amount": {
+        "total": 766
+      },
+      "id": 4
+    },
+    {
+      "date": "2023-08-31",
+      "name": "Laban KIbet",
+      "card": "473463463",
+      "address": "Bomet",
+      "amount": {
+        "total": 3
+      },
+      "id": 5
+    },
+    {
+      "date": "2023-08-31",
+      "name": "Mulot Boy",
+      "card": "12213123",
+      "address": "Mulot",
+      "amount": {
+        "total": 2198
+      },
+      "id": 6
     }
   ]
 }
