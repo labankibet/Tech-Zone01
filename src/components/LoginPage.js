@@ -1,57 +1,45 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-function LoginPage() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+function Login(){
+    const [getEmail, setEmail] = useState('')
+    const [getPassword, setPassword] = useState('')
+    //const [isLoggedIn,setIsLoggedIn]= useState(false)
+    const [userdata, setUserData]= useState([])
+    useEffect(()=>{
+        fetch('http://localhost:8001/user-data')
+        .then(response => response.json())
+        .then( data => setUserData(data))
+    },[])
+    const user = userdata.find((user) => user.email === getEmail && user.password === getPassword)
+    function handleSubmit(e){
+        e.preventDefault()
+            if(user){
+                alert('Login Success')
+            }else{
+               alert('Wrong password and email combination')
+            }
+            setEmail('')
+            setPassword('')
+    }
+      
+   
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Implement your login logic here, e.g., send a request to the API
-    console.log('Email:', email);
-    console.log('Password:', password);
-    // You can redirect the user to the dashboard or handle authentication as needed
-  };
-
-  return (
-    <div className="login-container">
-      <div className="login-card">
-        <h2>Login</h2>
+    return(
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="Enter your email"
-              value={email}
-              onChange={handleEmailChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter your password"
-              value={password}
-              onChange={handlePasswordChange}
-              required
-            />
-          </div>
-          <button type="submit">Login</button>
-        </form>
-      </div>
-    </div>
-  );
+        <label>
+          Email:
+          <input type="text" value={getEmail} onChange={(e) => setEmail(e.target.value)} />
+        </label>
+        <br />
+        <label>
+          Password:
+          <input type="password" value={getPassword} onChange={(e) => setPassword(e.target.value)} />
+        </label>
+        <br />
+        <button type="submit">Login</button>
+        <h4>Register Here<Link to="/registration">Register</Link></h4>
+      </form>
+    )
 }
-
-export default LoginPage;
+export default Login;
