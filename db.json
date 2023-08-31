@@ -413,16 +413,6 @@
       "id": 1
     },
     {
-      "date": "2023-08-30",
-      "name": "Bin Amin",
-      "card": "47474384738",
-      "address": "Kisumu Ngogo",
-      "amount": {
-        "total": 1665
-      },
-      "id": 2
-    },
-    {
       "date": "2023-08-31",
       "name": "Cynthia",
       "card": "12121213",
@@ -461,6 +451,16 @@
         "total": 2198
       },
       "id": 6
+    },
+    {
+      "date": "2023-08-24",
+      "name": "Machoka",
+      "card": "3213444",
+      "address": "67442",
+      "amount": {
+        "total": 2531
+      },
+      "id": 7
     }
   ]
 }
