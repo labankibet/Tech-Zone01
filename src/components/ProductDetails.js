@@ -13,13 +13,13 @@ function ProductDetails() {
 
     useEffect(() => {
 
-        fetch(`http://localhost:8001/phone_models/${id}`)
+        fetch(`https://json-server-dusky-nine.vercel.app/phone_models/${id}`)
             .then((response) => response.json())
             .then((data) => setSelectedPhone(data));
     }, [id]);
 
     function handleAddToCart(phoneData){
-        fetch('http://localhost:8001/cart-details',{
+        fetch('https://json-server-dusky-nine.vercel.app/cart-details',{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
