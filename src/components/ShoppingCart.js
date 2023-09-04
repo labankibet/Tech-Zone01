@@ -68,6 +68,7 @@ function Cart(){
     }
     return (
         <div className="output">
+        {cart.length > 0 ? 
         <table>
             <thead>
                 <tr>
@@ -94,6 +95,9 @@ function Cart(){
                 ))}
             </tbody>
         </table>
+        : 
+        <p>Cart is Empty!</p>
+        }
         <form id = "checkout" onSubmit={handleSubmit}>
             <h3>Checkout Details</h3>
             <p>Complete your purchase item by providing your payment details order</p>
