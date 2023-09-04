@@ -5,7 +5,7 @@ function Homepage() {
     const navigate = useNavigate();
     const [getPhones, setPhones] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:8001/phone_models")
+        fetch("https://json-server-dusky-nine.vercel.app/phone_models")
             .then((response) => response.json())
             .then((data) => setPhones(data));
     }, []);
