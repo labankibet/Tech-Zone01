@@ -13,7 +13,7 @@ import "../App.css";
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/cart">Cart</Link>
-        <Link to="/checkout">Checkout</Link>
+        <Link to="/checkout">Orders List</Link>
       </div>
     </nav>
     );
