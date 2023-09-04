@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 function Cart(){
     const [cart ,setInCart] = useState([])
     useEffect(() =>{
-        fetch('http://localhost:8001/cart-details')
+        fetch('https://json-server-dusky-nine.vercel.app/cart-details')
         .then((response) => response.json())
         .then((data) => setInCart(data));
     },[])
 
     function handleDelete(id){
         console.log(id)
-        fetch(`http://localhost:8001/cart-details/${id}`,{
+        fetch(`https://json-server-dusky-nine.vercel.app/cart-details/${id}`,{
             method:"DELETE"
         })
         const updatedCart = cart.filter((item)=> item.id !== id)
@@ -53,7 +53,7 @@ function Cart(){
             address:getAddress,
             amount:{total} 
          }
-         fetch('http://localhost:8001/order-details',{
+         fetch('https://json-server-dusky-nine.vercel.app/order-details',{
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
