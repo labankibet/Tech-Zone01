@@ -7,7 +7,7 @@ function Login(){
     //const [isLoggedIn,setIsLoggedIn]= useState(false)
     const [userdata, setUserData]= useState([])
     useEffect(()=>{
-        fetch('http://localhost:8001/user-data')
+        fetch('https://json-server-dusky-nine.vercel.app/user-data')
         .then(response => response.json())
         .then( data => setUserData(data))
     },[])
