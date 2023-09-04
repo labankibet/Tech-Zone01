@@ -21,7 +21,7 @@ function UserRegistration(){
             email:email,
             password:password
         }
-        fetch('http://localhost:8001/user-data',{
+        fetch('https://json-server-dusky-nine.vercel.app/user-data',{
             method: "POST",
             headers:{
                 "Content-Type":"application/json"
